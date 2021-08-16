@@ -1,0 +1,57 @@
+#myCarousel{
+    background-color: coral;
+    }
+
+#myCarousel img{
+    height:300px;
+   
+    }
+
+.carousel-inner p{
+    color: white;
+    font-size: 18;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.menu {
+    list-style: none;
+    float:left;
+    position: absolute;
+    top: 10px;
+    right: 400px;
+    cursor: pointer;
+    z-index: 99999;
+    
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+    width: 200px;
+    height:200px;
+}
+
+#img1 {
+    height: 300px;
+    width:100%;
+}
+
+.links {
+    float:left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+#welcome{
+    z-index: 10;
+}
